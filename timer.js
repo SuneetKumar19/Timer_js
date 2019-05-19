@@ -61,7 +61,7 @@ console.log("attached");
 function timer(seconds)
 {
     clearInterval(countdown);
-    //before we start a timer we must clear all existing timers otherwise chod mach jata hai
+    //before we start a timer we must clear all existing timers
     marker=1;
     display(seconds); 
     var now=Date.now();
@@ -83,8 +83,6 @@ function timer(seconds)
         display(lefttime);
     },1000);
 };
-
-
 // function to display time 
     function display(seconds)
     {
@@ -97,8 +95,6 @@ function timer(seconds)
         console.log({minutes,remseconds});
         if(hours!=0)
         {
-
-
             if(remseconds>=10)
             {
                 if(minutes>=10)
