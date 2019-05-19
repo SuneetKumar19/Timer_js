@@ -1,0 +1,82 @@
+body{
+
+ background-image: url("timer.jpg"); 
+}
+.maindisplay
+{
+    text-align: center;
+    font-size: 70px;
+     text-decoration-color: rgba(0, 0, 0, 0.383);
+    margin-top: 370px;
+    position: relative;
+    font-family: 'Merienda', cursive;
+    text-shadow: 2px 2px rgb(255, 252, 205);
+}
+.displaytime
+{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    position: relative;
+    font-family: 'Merienda', cursive;
+    text-shadow: 0.5px 1px rgb(255, 252, 205); 
+}
+.reset
+{
+    border-radius: 15px;
+    background-color: rgb(255, 145, 0);
+    /* color: rgb(255, 250, 240); */
+    font-size: 25px;
+    text-shadow: 1px 1px blanchedalmond;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 250px;
+    position: relative;
+    font-family: 'Merienda', cursive;
+    text-shadow: 0.5px 1px rgb(255, 252, 205); 
+
+}
+.row
+{
+    margin-top: 30px;
+    font-size: 25px;
+    text-shadow: 1px 1px blanchedalmond;
+    font-family: 'Merienda', cursive;
+}
+.my-col1
+{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background:rgb(255, 187, 0);
+    box-shadow: 3px 3px 2px;
+}
+.my-col2
+{
+    background:rgb(255, 174, 0);
+    box-shadow: 3px 3px 2px;
+}
+.my-col3
+{
+    background: rgb(255, 157, 0);
+    box-shadow: 3px 3px 2px;
+}
+.my-col4
+{
+    background: rgb(255, 145, 0);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* background: rgb(255, 102, 0); */
+    box-shadow: 3px 3px 2px;
+}
+ 
+input
+{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* background: rgb(255, 102, 0); */
+    box-shadow: 3px 3px 2px;
+    width: 180px;;
+
+}
