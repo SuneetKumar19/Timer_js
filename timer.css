@@ -33,7 +33,8 @@ body{
     margin-top: 250px;
     position: relative;
     font-family: 'Merienda', cursive;
-    text-shadow: 0.5px 1px rgb(255, 252, 205); 
+    text-shadow: 0.5px 1px rgb(255, 252, 205);
+ box-shadow: 3px 3px 2px; 
 
 }
 .row
