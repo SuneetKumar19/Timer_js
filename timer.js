@@ -164,6 +164,8 @@ function resetxx()
     lefttimex.textContent=`Set Time`;
     disptime.textContent=`Return time`;
     audio.pause();
+    var lol=`Timer`;
+    document.title=lol;
 };
 function audiopp()
 {
