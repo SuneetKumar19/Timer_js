@@ -1,25 +1,31 @@
 body{
-
- background-image: url("timer.jpg"); 
+ background-image: url("https://media.giphy.com/media/xTiTnI1mdyxsFKTFjW/giphy.gif"); 
+ background-size: cover;
+ padding: 0;
+ margin: 0;
 }
 .maindisplay
 {
+    /* color: rgb(116, 122, 91); */
+    /* color:rgb(192, 132, 34); */
+    color: rgb(212, 224, 224);
     text-align: center;
-    font-size: 70px;
-     text-decoration-color: rgba(0, 0, 0, 0.383);
-    margin-top: 370px;
+    font-size: 90px;
+     /* text-decoration-color: rgba(0, 0, 0, 0.383); */
+    margin-top: 300px;
     position: relative;
     font-family: 'Merienda', cursive;
-    text-shadow: 2px 2px rgb(255, 252, 205);
+    text-shadow: 2px 2px rgb(55, 56, 51);
 }
 .displaytime
 {
+    color: rgb(255, 188, 4);
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     margin-top: 15px;
     position: relative;
     font-family: 'Merienda', cursive;
-    text-shadow: 0.5px 1px rgb(255, 252, 205); 
+    text-shadow: 1.3px 1.5px  rgb(55, 56, 51); 
 }
 .reset
 {
@@ -34,7 +40,7 @@ body{
     position: relative;
     font-family: 'Merienda', cursive;
     text-shadow: 0.5px 1px rgb(255, 252, 205);
- box-shadow: 3px 3px 2px; 
+    box-shadow: 3px 3px 2px; 
 
 }
 .row
